@@ -23,7 +23,7 @@ jobs:
           key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-
-      - uses: https://github.com/jdx/mise-action@v2
+      - uses: jdx/mise-action@v2
         with:
           cache: true
       - run: mise run build
