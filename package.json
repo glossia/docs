@@ -1,0 +1,16 @@
+{
+  "name": "@glossia/docs",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "wrangler": "^3.111.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "workerd"
+    ]
+  }
+}

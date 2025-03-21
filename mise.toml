@@ -1,0 +1,10 @@
+[tools]
+node = "22.14.0"
+pnpm = "10.5.2"
+
+[env]
+_.path = ['{{config_root}}/node_modules/.bin']
+_.file = ".env.json"
+
+[hooks]
+postinstall = "mise run install"
