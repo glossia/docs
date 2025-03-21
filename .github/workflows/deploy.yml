@@ -1,9 +1,8 @@
-name: Docs
+name: Deploy
 on:
   push:
     branches:
       - main
-  pull_request: {}
 
 env:
   MISE_EXPERIMENTAL: "1"
@@ -12,9 +11,9 @@ env:
   PNPM_HOME: ~/.pnpm
 
 jobs:
-  build:
-    name: Build
-    runs-on: debian-latest
+  docs:
+    name: Docs
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/cache@v4
@@ -28,3 +27,4 @@ jobs:
         with:
           cache: true
       - run: mise run build
+      - run: mise run deploy
