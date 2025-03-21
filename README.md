@@ -1,5 +1,7 @@
 # Docs
 
+[![Docs](https://github.com/glossia/docs/actions/workflows/docs.yml/badge.svg)](https://github.com/glossia/docs/actions/workflows/docs.yml)
+
 This repository contains the documentation site for Glossia.
 
 ## Development
