@@ -122,7 +122,7 @@ export default defineConfig({
       ],
     },
     editLink: {
-      pattern: "https://github.com/glossia/docs/_edit/main/docs/:path",
+      pattern: "https://github.com/glossia/docs/edit/main/content/:path",
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/glossia" },
