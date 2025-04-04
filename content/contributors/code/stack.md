@@ -14,3 +14,4 @@ The following sections provide an overview of the Glossia stack. We try to keep 
 ## Technologies
 
 - [Erlang and Elixir](https://elixir-lang.org/): We believe the battle-tested Erlang runtime and the Elixir language, along with its toolchain, are a powerful combination for solving complex problems with simple solutions that aren't costly to maintain.
+- [11ty](https://www.11ty.dev/): We use 11ty to build static sites because it’s fast, easy to use, and—most importantly—captures the elegance of the web at its best.
