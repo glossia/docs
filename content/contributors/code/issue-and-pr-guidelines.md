@@ -8,7 +8,7 @@ titleTemplate: :title | Code | Contributors | Glossia Documentation
 Issues created in repositories, such as [glossia/glossia](https://github.com/glossia/glossia/issues), must be **well-scoped and accepted** before work begins.
 
 - **Bug Reports**: If you found a bug, create an issue using the appropriate template and include a **minimal reproducible example**.
-- **Feature Ideas & Improvements**: If you have an idea for a problem Glossia should solve or an improvement within its scope, please use the **forum for discussions** instead of the issue tracker.
+- **Feature Ideas & Improvements**: If you have an idea for a problem Glossia should solve or an improvement within its scope, please use the [**forum for discussions**](https://community.glossia.ai/c/shaping) (Shaping category) instead of the issue tracker.
 
 > [!IMPORTANT]
 > The issue tracker is **not** for discussions.
