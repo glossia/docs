@@ -117,6 +117,10 @@ export default defineConfig({
               text: "Stack",
               link: "/contributors/code/stack",
             },
+            {
+              text: "Issue & PR guidelines",
+              link: "/contributors/code/issue-and-pr-guidelines",
+            },
           ],
         },
       ],
