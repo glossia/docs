@@ -55,7 +55,7 @@ export default defineConfig({
       { text: "Users", link: "/users/quick-start/why-glossia" },
       { text: "Hosters", link: "/hosters/quick-start/host-glossia" },
       { text: "Contributors", link: "/contributors/quick-start/welcome" },
-      { text: "Website", link: "https://glossia.org" },
+      { text: "Website", link: "https://glossia.ai" },
     ],
     sidebar: {
       "/users/": [
@@ -117,6 +117,10 @@ export default defineConfig({
               text: "Stack",
               link: "/contributors/code/stack",
             },
+            {
+              text: "Issue & PR guidelines",
+              link: "/contributors/code/issue-and-pr-guidelines",
+            },
           ],
         },
       ],
@@ -127,7 +131,7 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/glossia" },
       { icon: "mastodon", link: "https://fosstodon.org/@glossia" },
-      { icon: "discourse", link: "https://community.glossia.org/" },
+      { icon: "discourse", link: "https://community.glossia.ai/" },
     ],
   },
 });
